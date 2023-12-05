@@ -1,0 +1,47 @@
+body {
+  background: #181a1b;
+  color: #dbdbdb;
+  font-family: "Inter";
+  padding: 0;
+  margin: 0;
+}
+nav {
+  border-bottom: 2px solid #343434;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  height: 55px;
+}
+#nav-buttons {
+  margin-left: auto;
+  border: 2px solid #454545;
+  border-radius: 8px;
+  padding: 3px;
+}
+#nav-buttons > button {
+  height: 30px;
+  font-size: 18px;
+  color: #a3a3a3;
+  background: transparent;
+  padding: 0;
+  border: none;
+  min-width: 30px;
+  cursor: pointer;
+  font-family: "JetBrains Mono";
+}
+#nav-buttons > button:hover {
+  content: attr(data-hover-content);
+}
+#nav-buttons > button:hover {
+  color: #ededed;
+}
+#title {
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  background-image: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  filter: brightness(120%);
+  font-weight: bold;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
