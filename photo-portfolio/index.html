@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaxson O'Connor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <p id="title">Jaxson O'Connor</p>
+        <div class="nav-buttons">
+            <button id="about">About</button>
+            <button id="my-work">My Work</button>
+            <button id="contact">Contact</button>
+        </div>
+    </nav>
+    <div class="about">
+        <div class="about-content">
+            <p id="text-content-title">Hey, I'm Jaxson O'Connor</p>
+            <p id="text-content-body">I'm an amateur photographer and intermediate front-end programmer. This website will show my work, and how you can contect me. The photos closer to the top are more recent, and are my personal favorites.</p>
+        </div>
+    </div>
+    <div class="my-work">
+        <img title="Open in New Tab" src="./IMG_9708.jpg" onclick="window.open('./IMG_9708.jpg')" alt="That's odd. My photos aren't loading.">
+        <img title="Open in New Tab" src="./IMG_7956.jpg" onclick="window.open('./IMG_7956.jpg')" alt="That's odd. My photos aren't loading.">
+        <img title="Open in New Tab" src="./flower1.jpg" onclick="window.open('./flower1.jpg')" alt="That's odd. My photos aren't loading.">
+        <img title="Open in New Tab" src="./IMG_7466.jpg" onclick="window.open('./IMG_7466.jpg')" alt="That's odd. My photos aren't loading.">
+        <img title="Open in New Tab" src="./IMG_7861.jpg" onclick="window.open('./IMG_7861.jpg')" alt="That's odd. My photos aren't loading.">
+    </div>
+    <div class="contact">
+        <p id="contact-title">Contact me</p>
+        <p id="contact-text">My school email is <u>jocon1028@westada.org</u></p>
+        <button title="This button should work" id="contact-button" onclick="window.open('mailto:jocon1028@westada.org')">Send a message</button>
+    </div>
+    <div class="tip">
+        <p id="tip-header">Tip</p>
+        <p id="tip-text">Press Arrow Up or Arrow Down to zoom in / out the images. This tip will go away a few seconds.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

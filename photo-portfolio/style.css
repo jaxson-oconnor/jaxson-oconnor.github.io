@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pixelify+Sans&family=Silkscreen&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Pixelify Sans";
+    background: #1B1B1B;
+    color: #a7a7a7;
+    overflow-x: hidden;
+}
+#title {
+    font-family: "Silkscreen";
+}
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #2B2B2B;
+    z-index: 1000;
+    background: #1B1B1B;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.about-content {
+    width: 75%;
+}
+#text-content-title {
+    font-size: 20px;
+    color: white;
+    font-family: "Silkscreen";
+}
+.nav-buttons {
+    margin-left: auto;
+}
+.nav-buttons > button {
+    transition: .2s ease;
+    background: transparent;
+    color: #6b6b6b;
+    font-family: "Pixelify Sans";
+    border: none;
+}
+.nav-buttons > button:hover {
+    transition: .2s ease;
+    color: #dbdbdb;
+    cursor: pointer;
+}
+.my-work {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img {
+    transition: .2s ease;
+    width: calc(50% - 40px);
+    border-radius: 10px;
+    border: 2px solid #636363;
+    margin-top: 25px;
+}
+img:hover {
+    transition: .2s ease;
+    cursor: pointer;
+    scale: 1.05;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    padding: 40px;
+}
+#contact-title {
+    font-family: "Silkscreen";
+    color: white;
+    margin-bottom: 0;
+}
+#contact-button {
+    background: rgb(119, 0, 255);
+    color: white;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: 2px solid rgb(119, 44, 240);
+    font-family: "Silkscreen";
+    cursor: pointer;
+}
+.tip {
+    background: rgb(255, 73, 73);
+    color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 0px 15px;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 3px solid rgb(201, 37, 37);
+}
+#tip-header {
+    font-family: "Silkscreen";
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+#tip-text {
+    margin-top: 4px;
+    font-weight: normal;
+    font-size: 16px;
+}
